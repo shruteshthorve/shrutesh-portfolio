@@ -1,7 +1,6 @@
-import logo from "../assets/kevinRushLogo.png";
+import logo from "../assets/ST logo Design.jpeg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
 
@@ -12,10 +11,11 @@ const Navbar = () => {
            <img className="mx-2 w-10" src={logo} alt="logo" /> 
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />  
-        <FaSquareXTwitter />
-        <FaInstagram />
+        <a href="https://www.linkedin.com/in/shrutesh-thorve-133828255/"><FaLinkedin /></a>
+        <a href="https://github.com/shruteshthorve"><FaGithub /> </a> 
+        <a href="https://www.instagram.com/shruteshthorve/"> <FaInstagram /></a>
+        
+       
         </div>
 
     </nav>
